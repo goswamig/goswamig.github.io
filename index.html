@@ -1,9 +1,20 @@
+---
+layout: default
+title: Gautam Goswami's blog
+email: 
+description: "Musings of a Computer Scientist."
+baseurl: ""
+url: "http://goswamig.github.io"
+twitter_username: gautam5669
+github_username: goswamig
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My GitHub Page</title>
+    <title>{{ page.title }}</title>
     <style>
         body {
             display: flex;
@@ -16,8 +27,8 @@
     </style>
 </head>
 <body>
-    <h1>Hello!</h1>
-    <p>Welcome to my GitHub page.</p>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
 </body>
 </html>
 
